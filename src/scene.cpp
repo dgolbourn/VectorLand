@@ -13,23 +13,6 @@
 namespace bg = boost::geometry;
 namespace bgi = boost::geometry::index;
 
-//static bool operator==(aabb const& l, aabb const& r)
-//{
-//    return std::tie(l.min_corner.x, l.min_corner.y,
-//                    l.max_corner.x, l.max_corner.y,
-//                    l.z,
-//                    l.ptr)
-//           == std::tie(r.min_corner.x, r.min_corner.y,
-//                       r.max_corner.x, r.max_corner.y,
-//                       r.z,
-//                       r.ptr);
-//}
-//
-//static bool operator<(aabb const& l, aabb const& r)
-//{
-//    return l.z < r.z;
-//}
-
 static std::ostream& operator<<(std::ostream& os, const aabb& a)
 {
     return os << "{\n\t\"min corner\" = \n\t{\n\t\t\"x\" = " << a.min_corner.x
