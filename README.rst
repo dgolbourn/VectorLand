@@ -52,7 +52,8 @@ Here is an example of how to use this library:
     q.max_corner.x = 5.f;
     q.max_corner.y = 5.f;
     struct scene_list *l = scene_intersect(r, &q);
-    while(aabb const *b = scene_list_next(l))
+    struct aabb const *b = 0;
+    while(b = scene_list_next(l))
     {
     	/* consume the bounding box data here */
     }

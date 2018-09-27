@@ -31,7 +31,6 @@ struct scene_list *scene_intersect(struct scene *, struct aabb const *);
 struct aabb const *scene_list_next(struct scene_list *);
 void scene_list_destroy(struct scene_list *);
 
-void example();
 #ifdef __cplusplus
 }
 #endif
