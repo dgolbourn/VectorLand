@@ -21,7 +21,7 @@ Here is an example of how to use this library:
 
 .. code-block:: c
 
-	struct scene *r = scene_init();
+    struct scene *r = scene_init();
 
     /* populate r */
     struct aabb x;
@@ -46,7 +46,7 @@ Here is an example of how to use this library:
     scene_remove(r, &x);
 
     /* now query which AABBs are visible in a given region */
-	struct aabb q;
+    struct aabb q;
     q.min_corner.x = 0.f;
     q.min_corner.y = 0.f;
     q.max_corner.x = 5.f;
