@@ -1,6 +1,6 @@
 VectorLand Documentation
 ========================
-VectorLand is a 2D planar vector based rendering engine
+This is a C API exporting functionality of a boost C++ scene graph
 
 C API Reference
 =================
